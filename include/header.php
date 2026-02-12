@@ -26,8 +26,8 @@
 
     <header>
         <a href="index.php" class="logo">
-            <img src="assets/header/logo.svg" alt="Alpha+">
-            <h1>Alpha+</h1>
+            <div class="img"><img src="assets/header/logo.svg" alt="Alpha+"></div>
+            <div><h1>Alpha+</h1></div>
         </a>
         <p id="datetime">
             <?php
