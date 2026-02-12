@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/style/button.css">
     <link rel="stylesheet" href="assets/style/appointment.css">
     <link rel="stylesheet" href="assets/style/doctors.css">
+    <link rel="stylesheet" href="assets/style/services.css">
 </head>
 
 <body>
@@ -35,6 +36,7 @@
         <a href="index.php" <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'class="active"' : ''; ?>>Новости
             и
             акции</a>
+        <a href="services.php" <?php echo basename($_SERVER['PHP_SELF']) == 'services.php' ? 'class="active"' : ''; ?>>Наши услуги</a>
         <a href="doctors.php"
             <?php echo basename($_SERVER['PHP_SELF']) == 'doctors.php' ? 'class="active"' : ''; ?>>Наши
             специалисты</a>

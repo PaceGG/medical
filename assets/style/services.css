@@ -1,0 +1,3 @@
+.services li::marker {
+  color: var(--primary);
+}
