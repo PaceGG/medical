@@ -29,8 +29,7 @@
             <img src="assets/header/logo.svg" alt="Alpha+">
             <h1>Alpha+</h1>
         </a>
-        <p>
-            Дата и время:
+        <p id="datetime">
             <?php
                 date_default_timezone_set('Asia/Yekaterinburg'); 
                 echo date('Y-m-d H:i:s');
@@ -38,6 +37,8 @@
         </p>
     </header>
 
+    <script src="script/header.js"></script>
+    
     <nav>
         <a href="index.php" <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'class="active"' : ''; ?>>Новости
             и
