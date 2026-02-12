@@ -1,0 +1,8 @@
+.doctors h3 {
+  text-align: center;
+  color: var(--primary);
+}
+
+.doctors p {
+  text-align: center;
+}

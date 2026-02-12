@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0091d1;
+  color: white;
+  padding: 0 10px;
+}
+
+.logo {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: var(--primary-light);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+nav > a {
+  display: block;
+  padding: 8px 16px;
+  color: var(--background);
+  cursor: pointer;
+  font-weight: 500;
+  flex: 1;
+  text-align: center;
+}
+
+nav > .active {
+  background-color: var(--background);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.3em;
+}
