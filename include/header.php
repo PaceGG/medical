@@ -29,7 +29,13 @@
             <img src="assets/header/logo.svg" alt="Alpha+">
             <h1>Alpha+</h1>
         </a>
-        <p>Время</p>
+        <p>
+            Дата и время:
+            <?php
+                date_default_timezone_set('Asia/Yekaterinburg'); 
+                echo date('Y-m-d H:i:s');
+            ?>
+        </p>
     </header>
 
     <nav>
