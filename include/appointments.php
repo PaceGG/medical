@@ -15,8 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $check = $conn->query("SELECT * FROM appointments WHERE specialist_id=$specialist_id AND date='$date' AND time='$time'");
     if ($check->num_rows > 0) die("Этот слот уже занят.");
 
-    $conn->query("INSERT INTO appointments (name, phone_number, email, clinic_id, specialist_id, date, time) 
-                 VALUES ('$name','$phone','$email',1,$specialist_id,'$date','$time')");
+    $conn->query("INSERT INTO appointments (name, phone_number, email, specialist_id, date, time) 
+                 VALUES ('$name','$phone','$email',$specialist_id,'$date','$time')");
 
     header("Location: ../success.php");
     exit;

@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>medical</title>
+    <title>Alpha+</title>
+
+    <link rel="shortcut icon" href="assets/header/logo.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="stylesheet" href="assets/style/header.css">

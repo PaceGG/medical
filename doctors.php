@@ -6,7 +6,7 @@
         while ($row = $response->fetch_assoc()) {
             echo "
                 <div class='card'>
-                    <img src='assets/specialists/{$row['photo']}' alt='{$row['name']}'>
+                    <img src='{$row['photo']}' alt='{$row['name']}'>
                     <h3>{$row['name']}</h3>
                     <p>{$row['speciality']}</p>
                 </div>"

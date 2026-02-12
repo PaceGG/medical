@@ -7,8 +7,6 @@ $result = $conn->query("SELECT id, name, speciality FROM specialists");
 while ($row = $result->fetch_assoc()) $specialists[] = $row;
 ?>
 
-<link rel="stylesheet" href="css/appointment.css">
-
 <div class="appointment-container">
     <div class="appointment-card">
         <h2>Запись на прием</h2>
